@@ -20,8 +20,8 @@ stage('Initialize'){
 ```
 * From same [SO thread](https://stackoverflow.com/questions/44850565/docker-not-found-when-building-docker-image-using-docker-jenkins-container-pipel), bound host Docker with run/compose variables
 ```
--v /var/run/docker.sock:/var/run/docker.sock \
--v /usr/bin/docker:/usr/bin/docker \
+-v /var/run/docker.sock:/var/run/docker.sock
+-v /usr/bin/docker:/usr/bin/docker
 ```
 * Tailored [jenkins-docker-compose.yml](https://gist.github.com/pythoninthegrass/abb755a54ba908374e1c8bfd79d0c499) files for master and slave Jenkins containers
 * [JNLP slave](https://github.com/jenkinsci/docker-jnlp-slave) configuration at [Medium](https://medium.com/@prashant.vats/jenkins-master-and-slave-with-docker-b993dd031cbd)

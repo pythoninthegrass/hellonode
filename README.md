@@ -23,6 +23,6 @@ stage('Initialize'){
 -v /var/run/docker.sock:/var/run/docker.sock \
 -v /usr/bin/docker:/usr/bin/docker \
 ```
-* [JNLP slave](https://github.com/jenkinsci/docker-jnlp-slave) configuration at [Medium](https://medium.com/@prashant.vats/jenkins-master-and-slave-with-docker-b993dd031cbd)
 * Tailored [jenkins-docker-compose.yml](https://gist.github.com/pythoninthegrass/abb755a54ba908374e1c8bfd79d0c499) files for master and slave Jenkins containers
+* [JNLP slave](https://github.com/jenkinsci/docker-jnlp-slave) configuration at [Medium](https://medium.com/@prashant.vats/jenkins-master-and-slave-with-docker-b993dd031cbd)
 * Followed [first](https://getintodevops.com/blog/the-simple-way-to-run-docker-in-docker-for-ci) and [second](https://getintodevops.com/blog/building-your-first-docker-image-with-jenkins-2-guide-for-developers) guide from _Get Into DevOps_ after setting up infra
